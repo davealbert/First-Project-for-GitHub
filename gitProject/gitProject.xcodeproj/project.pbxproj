@@ -16,6 +16,7 @@
 		50BC8FCF14A492C6005CF90C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC8FCD14A492C6005CF90C /* MainWindow.xib */; };
 		50BC8FD214A492C6005CF90C /* gitProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC8FD114A492C6005CF90C /* gitProjectViewController.m */; };
 		50BC8FD514A492C6005CF90C /* gitProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */; };
+		50BC8FE014A49383005CF90C /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC8FDE14A49383005CF90C /* MainWindow-iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		50BC8FD014A492C6005CF90C /* gitProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitProjectViewController.h; sourceTree = "<group>"; };
 		50BC8FD114A492C6005CF90C /* gitProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitProjectViewController.m; sourceTree = "<group>"; };
 		50BC8FD414A492C6005CF90C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/gitProjectViewController.xib; sourceTree = "<group>"; };
+		50BC8FDF14A49383005CF90C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +81,8 @@
 		50BC8FC114A492C6005CF90C /* gitProject */ = {
 			isa = PBXGroup;
 			children = (
-				50BC8FCA14A492C6005CF90C /* gitProjectAppDelegate.h */,
-				50BC8FCB14A492C6005CF90C /* gitProjectAppDelegate.m */,
-				50BC8FCD14A492C6005CF90C /* MainWindow.xib */,
-				50BC8FD014A492C6005CF90C /* gitProjectViewController.h */,
-				50BC8FD114A492C6005CF90C /* gitProjectViewController.m */,
-				50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */,
+				50BC8FDC14A4937B005CF90C /* Resources */,
+				50BC8FDB14A49379005CF90C /* Classes */,
 				50BC8FC214A492C6005CF90C /* Supporting Files */,
 			);
 			path = gitProject;
@@ -99,6 +97,35 @@
 				50BC8FC814A492C6005CF90C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50BC8FDB14A49379005CF90C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FCA14A492C6005CF90C /* gitProjectAppDelegate.h */,
+				50BC8FCB14A492C6005CF90C /* gitProjectAppDelegate.m */,
+				50BC8FD014A492C6005CF90C /* gitProjectViewController.h */,
+				50BC8FD114A492C6005CF90C /* gitProjectViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		50BC8FDC14A4937B005CF90C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FDD14A49382005CF90C /* iPad */,
+				50BC8FCD14A492C6005CF90C /* MainWindow.xib */,
+				50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50BC8FDD14A49382005CF90C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FDE14A49383005CF90C /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +181,7 @@
 				50BC8FC614A492C6005CF90C /* InfoPlist.strings in Resources */,
 				50BC8FCF14A492C6005CF90C /* MainWindow.xib in Resources */,
 				50BC8FD514A492C6005CF90C /* gitProjectViewController.xib in Resources */,
+				50BC8FE014A49383005CF90C /* MainWindow-iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +223,14 @@
 				50BC8FD414A492C6005CF90C /* en */,
 			);
 			name = gitProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+		50BC8FDE14A49383005CF90C /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BC8FDF14A49383005CF90C /* en */,
+			);
+			name = "MainWindow-iPad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -241,7 +277,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gitProject/gitProject-Prefix.pch";
 				INFOPLIST_FILE = "gitProject/gitProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,7 +292,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gitProject/gitProject-Prefix.pch";
 				INFOPLIST_FILE = "gitProject/gitProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
