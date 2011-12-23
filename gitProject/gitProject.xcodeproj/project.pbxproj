@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50BC8FBC14A492C6005CF90C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8FBB14A492C6005CF90C /* UIKit.framework */; };
+		50BC8FBE14A492C6005CF90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8FBD14A492C6005CF90C /* Foundation.framework */; };
+		50BC8FC014A492C6005CF90C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8FBF14A492C6005CF90C /* CoreGraphics.framework */; };
+		50BC8FC614A492C6005CF90C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50BC8FC414A492C6005CF90C /* InfoPlist.strings */; };
+		50BC8FC914A492C6005CF90C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC8FC814A492C6005CF90C /* main.m */; };
+		50BC8FCC14A492C6005CF90C /* gitProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC8FCB14A492C6005CF90C /* gitProjectAppDelegate.m */; };
+		50BC8FCF14A492C6005CF90C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC8FCD14A492C6005CF90C /* MainWindow.xib */; };
+		50BC8FD214A492C6005CF90C /* gitProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC8FD114A492C6005CF90C /* gitProjectViewController.m */; };
+		50BC8FD514A492C6005CF90C /* gitProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50BC8FB714A492C6005CF90C /* gitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BC8FBB14A492C6005CF90C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50BC8FBD14A492C6005CF90C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50BC8FBF14A492C6005CF90C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50BC8FC314A492C6005CF90C /* gitProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitProject-Info.plist"; sourceTree = "<group>"; };
+		50BC8FC514A492C6005CF90C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50BC8FC714A492C6005CF90C /* gitProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitProject-Prefix.pch"; sourceTree = "<group>"; };
+		50BC8FC814A492C6005CF90C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50BC8FCA14A492C6005CF90C /* gitProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitProjectAppDelegate.h; sourceTree = "<group>"; };
+		50BC8FCB14A492C6005CF90C /* gitProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitProjectAppDelegate.m; sourceTree = "<group>"; };
+		50BC8FCE14A492C6005CF90C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		50BC8FD014A492C6005CF90C /* gitProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitProjectViewController.h; sourceTree = "<group>"; };
+		50BC8FD114A492C6005CF90C /* gitProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitProjectViewController.m; sourceTree = "<group>"; };
+		50BC8FD414A492C6005CF90C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/gitProjectViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50BC8FB414A492C6005CF90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BC8FBC14A492C6005CF90C /* UIKit.framework in Frameworks */,
+				50BC8FBE14A492C6005CF90C /* Foundation.framework in Frameworks */,
+				50BC8FC014A492C6005CF90C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50BC8FAC14A492C6005CF90C = {
+			isa = PBXGroup;
+			children = (
+				50BC8FC114A492C6005CF90C /* gitProject */,
+				50BC8FBA14A492C6005CF90C /* Frameworks */,
+				50BC8FB814A492C6005CF90C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50BC8FB814A492C6005CF90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FB714A492C6005CF90C /* gitProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50BC8FBA14A492C6005CF90C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FBB14A492C6005CF90C /* UIKit.framework */,
+				50BC8FBD14A492C6005CF90C /* Foundation.framework */,
+				50BC8FBF14A492C6005CF90C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50BC8FC114A492C6005CF90C /* gitProject */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FCA14A492C6005CF90C /* gitProjectAppDelegate.h */,
+				50BC8FCB14A492C6005CF90C /* gitProjectAppDelegate.m */,
+				50BC8FCD14A492C6005CF90C /* MainWindow.xib */,
+				50BC8FD014A492C6005CF90C /* gitProjectViewController.h */,
+				50BC8FD114A492C6005CF90C /* gitProjectViewController.m */,
+				50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */,
+				50BC8FC214A492C6005CF90C /* Supporting Files */,
+			);
+			path = gitProject;
+			sourceTree = "<group>";
+		};
+		50BC8FC214A492C6005CF90C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50BC8FC314A492C6005CF90C /* gitProject-Info.plist */,
+				50BC8FC414A492C6005CF90C /* InfoPlist.strings */,
+				50BC8FC714A492C6005CF90C /* gitProject-Prefix.pch */,
+				50BC8FC814A492C6005CF90C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50BC8FB614A492C6005CF90C /* gitProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50BC8FD814A492C6005CF90C /* Build configuration list for PBXNativeTarget "gitProject" */;
+			buildPhases = (
+				50BC8FB314A492C6005CF90C /* Sources */,
+				50BC8FB414A492C6005CF90C /* Frameworks */,
+				50BC8FB514A492C6005CF90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitProject;
+			productName = gitProject;
+			productReference = 50BC8FB714A492C6005CF90C /* gitProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50BC8FAE14A492C6005CF90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Hermitage Medical Clinic";
+			};
+			buildConfigurationList = 50BC8FB114A492C6005CF90C /* Build configuration list for PBXProject "gitProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50BC8FAC14A492C6005CF90C;
+			productRefGroup = 50BC8FB814A492C6005CF90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50BC8FB614A492C6005CF90C /* gitProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50BC8FB514A492C6005CF90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BC8FC614A492C6005CF90C /* InfoPlist.strings in Resources */,
+				50BC8FCF14A492C6005CF90C /* MainWindow.xib in Resources */,
+				50BC8FD514A492C6005CF90C /* gitProjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50BC8FB314A492C6005CF90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BC8FC914A492C6005CF90C /* main.m in Sources */,
+				50BC8FCC14A492C6005CF90C /* gitProjectAppDelegate.m in Sources */,
+				50BC8FD214A492C6005CF90C /* gitProjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50BC8FC414A492C6005CF90C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BC8FC514A492C6005CF90C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50BC8FCD14A492C6005CF90C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BC8FCE14A492C6005CF90C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50BC8FD414A492C6005CF90C /* en */,
+			);
+			name = gitProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50BC8FD614A492C6005CF90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50BC8FD714A492C6005CF90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		50BC8FD914A492C6005CF90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gitProject/gitProject-Prefix.pch";
+				INFOPLIST_FILE = "gitProject/gitProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50BC8FDA14A492C6005CF90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gitProject/gitProject-Prefix.pch";
+				INFOPLIST_FILE = "gitProject/gitProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50BC8FB114A492C6005CF90C /* Build configuration list for PBXProject "gitProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50BC8FD614A492C6005CF90C /* Debug */,
+				50BC8FD714A492C6005CF90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50BC8FD814A492C6005CF90C /* Build configuration list for PBXNativeTarget "gitProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50BC8FD914A492C6005CF90C /* Debug */,
+				50BC8FDA14A492C6005CF90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50BC8FAE14A492C6005CF90C /* Project object */;
+}
