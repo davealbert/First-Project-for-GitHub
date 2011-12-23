@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface gitProjectViewController : UIViewController {
-	BOOL updated;    
-	BOOL updated2; 
-	BOOL updated3;     
+	BOOL updated;
+	BOOL updated2;
+	BOOL updated3;
 }
 
 @end
