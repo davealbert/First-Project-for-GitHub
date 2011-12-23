@@ -46,4 +46,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+- (IBAction)spinIt:(id)sender{
+    NSLog(@"%d",((UIButton *) sender).tag);
+}
 @end

@@ -17,4 +17,8 @@
 	BOOL bupdated3;
 }
 
+
+- (IBAction)spinIt:(id)sender;
+
+
 @end
