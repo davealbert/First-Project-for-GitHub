@@ -12,6 +12,9 @@
 	BOOL updated;
 	BOOL updated2;
 	BOOL updated3;
+    BOOL bupdated;
+	BOOL bupdated2;
+	BOOL bupdated3;
 }
 
 @end
