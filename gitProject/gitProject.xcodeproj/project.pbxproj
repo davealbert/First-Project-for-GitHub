@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505C2DFB14A4C06300E35A8D /* shield.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 505C2DFA14A4C06300E35A8D /* shield.jpeg */; };
 		50BC8FBC14A492C6005CF90C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8FBB14A492C6005CF90C /* UIKit.framework */; };
 		50BC8FBE14A492C6005CF90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8FBD14A492C6005CF90C /* Foundation.framework */; };
 		50BC8FC014A492C6005CF90C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC8FBF14A492C6005CF90C /* CoreGraphics.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		505C2DFA14A4C06300E35A8D /* shield.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shield.jpeg; sourceTree = "<group>"; };
 		50BC8FB714A492C6005CF90C /* gitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BC8FBB14A492C6005CF90C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50BC8FBD14A492C6005CF90C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505C2DF814A4C05600E35A8D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				505C2DFA14A4C06300E35A8D /* shield.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		50BC8FAC14A492C6005CF90C = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		50BC8FDC14A4937B005CF90C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				505C2DF814A4C05600E35A8D /* Images */,
 				50BC8FDD14A49382005CF90C /* iPad */,
 				50BC8FCD14A492C6005CF90C /* MainWindow.xib */,
 				50BC8FD314A492C6005CF90C /* gitProjectViewController.xib */,
@@ -182,6 +193,7 @@
 				50BC8FCF14A492C6005CF90C /* MainWindow.xib in Resources */,
 				50BC8FD514A492C6005CF90C /* gitProjectViewController.xib in Resources */,
 				50BC8FE014A49383005CF90C /* MainWindow-iPad.xib in Resources */,
+				505C2DFB14A4C06300E35A8D /* shield.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +331,7 @@
 				50BC8FDA14A492C6005CF90C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
