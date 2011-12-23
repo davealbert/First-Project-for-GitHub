@@ -10,6 +10,7 @@
 
 @interface gitProjectViewController : UIViewController {
 	BOOL updated;    
+	BOOL updated2;        
 }
 
 @end
